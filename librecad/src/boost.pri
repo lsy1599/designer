@@ -5,7 +5,8 @@
 exists( custom.pro ):include( custom.pro )
 exists( custom.pri ):include( custom.pri )
 
-BOOST_LIBS =
+BOOST_DIR = "D:/3dparts/boost_1_53_0"
+BOOST_LIBS = "D:/3dparts/boost_1_53_0"
 
 unix {
     defineTest( checkBoostIncDir ) {
